@@ -1,5 +1,4 @@
 import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         task1();
@@ -86,8 +85,9 @@ public class Main {
                 System.out.println("Сезон Осень");
                 break;
             default:
-                System.out.println("Такого месяца нет");
+                System.out.println("Такого месяца нет ");
         }
+        System.out.println("Сделано ДЗ");
 
     }
 }
